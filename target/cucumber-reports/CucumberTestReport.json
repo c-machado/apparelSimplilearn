@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1622520851,
+              "duration": 1708292599,
               "status": "passed"
             },
             "match": {
@@ -14,16 +14,16 @@
             }
           }
         ],
-        "line": 3,
+        "line": 15,
         "name": "Successful register",
         "description": "",
-        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;successful-register",
+        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;successful-register;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3943440752,
+              "duration": 3959425351,
               "status": "passed"
             },
             "line": 4,
@@ -32,6 +32,207 @@
               "location": "RegisterUser.iAmAtHomePage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1310858566,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click to sign in",
+            "match": {
+              "location": "RegisterUser.iClickToSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151042786,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill out a valid \"dcmu3@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu3@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterUser.iFillOutAValid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65465462,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click to create account",
+            "match": {
+              "location": "RegisterUser.iClickToCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2160486710,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill out the personal info \"Mr\"\"Carolina\"\"Machado\"\"123456\"\"8\"\"9\"\"1990\"\"y\"\"y\"with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 30
+                },
+                {
+                  "val": "Carolina",
+                  "offset": 34
+                },
+                {
+                  "val": "Machado",
+                  "offset": 44
+                },
+                {
+                  "val": "123456",
+                  "offset": 53
+                },
+                {
+                  "val": "8",
+                  "offset": 61
+                },
+                {
+                  "val": "9",
+                  "offset": 64
+                },
+                {
+                  "val": "1990",
+                  "offset": 67
+                },
+                {
+                  "val": "y",
+                  "offset": 73
+                },
+                {
+                  "val": "y",
+                  "offset": 76
+                }
+              ],
+              "location": "RegisterUser.iFillOutThePersonalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752217161,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill out the additional info \"Huge\"\"calle 2\"\"calle 100\"\"Bogota\"\"3\"\"11000\"\"21\"\"none\"\"3002114915\"\"13300776732\"\"hugeDir\" with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Huge",
+                  "offset": 32
+                },
+                {
+                  "val": "calle 2",
+                  "offset": 38
+                },
+                {
+                  "val": "calle 100",
+                  "offset": 47
+                },
+                {
+                  "val": "Bogota",
+                  "offset": 58
+                },
+                {
+                  "val": "3",
+                  "offset": 66
+                },
+                {
+                  "val": "11000",
+                  "offset": 69
+                },
+                {
+                  "val": "21",
+                  "offset": 76
+                },
+                {
+                  "val": "none",
+                  "offset": 80
+                },
+                {
+                  "val": "3002114915",
+                  "offset": 86
+                },
+                {
+                  "val": "13300776732",
+                  "offset": 98
+                },
+                {
+                  "val": "hugeDir",
+                  "offset": 111
+                }
+              ],
+              "location": "RegisterUser.iFillOutTheAdditionalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1250195541,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "RegisterUser.iClickOnTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12667478,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be registered",
+            "match": {
+              "location": "RegisterUser.iShouldBeRegistered()"
+            },
+            "keyword": "Then "
           }
         ]
       }
