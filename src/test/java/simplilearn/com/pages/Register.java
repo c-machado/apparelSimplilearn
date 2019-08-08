@@ -86,25 +86,4 @@ public class Register {
     @FindBy(id = "#submitAccount")
     public WebElement submitRegisterCta;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

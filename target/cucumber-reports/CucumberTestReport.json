@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1622520851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Successful register",
+        "description": "",
+        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;successful-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3943440752,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at home page",
+            "match": {
+              "location": "RegisterUser.iAmAtHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to register in the Apparel page so I can manage my billing data",
+    "description": "",
+    "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/register.feature"
+  }
+]
