@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1708292599,
+              "duration": 1548029350,
               "status": "passed"
             },
             "match": {
@@ -14,19 +14,19 @@
             }
           }
         ],
-        "line": 15,
-        "name": "Successful register",
+        "line": 31,
+        "name": "Unsuccessful register",
         "description": "",
-        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;successful-register;;2",
+        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;unsuccessful-register;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3959425351,
+              "duration": 56868968097,
               "status": "passed"
             },
-            "line": 4,
+            "line": 18,
             "name": "I am at home page",
             "match": {
               "location": "RegisterUser.iAmAtHomePage()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 1310858566,
+              "duration": 4253154269,
               "status": "passed"
             },
-            "line": 5,
+            "line": 19,
             "name": "I click to sign in",
             "match": {
               "location": "RegisterUser.iClickToSignIn()"
@@ -47,15 +47,15 @@
           },
           {
             "result": {
-              "duration": 151042786,
+              "duration": 125822307,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I fill out a valid \"dcmu3@gmail.com\"",
+            "line": 20,
+            "name": "I fill out a valid \"dcmu4@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "dcmu3@gmail.com",
+                  "val": "dcmu4@gmail.com",
                   "offset": 20
                 }
               ],
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 65465462,
+              "duration": 65682725,
               "status": "passed"
             },
-            "line": 7,
+            "line": 21,
             "name": "I click to create account",
             "match": {
               "location": "RegisterUser.iClickToCreateAccount()"
@@ -80,10 +80,11 @@
           },
           {
             "result": {
-              "duration": 2160486710,
-              "status": "passed"
+              "duration": 2028773509,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".account_creation #id_gender1\"}\n  (Session info: chrome\u003d76.0.3809.100)\n  (Driver info: chromedriver\u003d2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform\u003dMac OS X 10.14.5 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027machadoca-macbookpro2.roam.corp.google.com\u0027, ip: \u0027fe80:0:0:0:147b:3f80:88c8:cf5f%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002712\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/3t/4kks_j5124d...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65259}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.100, webStorageEnabled: true}\nSession ID: eaf99443a8ce1923893da5db0e187805\n*** Element info: {Using\u003dcss selector, value\u003d.account_creation #id_gender1}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:413)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat simplilearn.com.pages.Register.checkTitle(Register.java:93)\n\tat simplilearn.com.steps.RegisterUser.iFillOutThePersonalInfoWithTheCorrectInformation(RegisterUser.java:54)\n\tat ✽.And I fill out the personal info \"Mr\"\"Carolina\"\"Machado\"\"123456\"\"8\"\"9\"\"1990\"\"y\"\"y\"with the correct information(src/test/java/resources/register.feature:22)\n",
+              "status": "failed"
             },
-            "line": 8,
+            "line": 22,
             "name": "I fill out the personal info \"Mr\"\"Carolina\"\"Machado\"\"123456\"\"8\"\"9\"\"1990\"\"y\"\"y\"with the correct information",
             "match": {
               "arguments": [
@@ -141,11 +142,10 @@
           },
           {
             "result": {
-              "duration": 752217161,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
-            "name": "I fill out the additional info \"Huge\"\"calle 2\"\"calle 100\"\"Bogota\"\"3\"\"11000\"\"21\"\"none\"\"3002114915\"\"13300776732\"\"hugeDir\" with the correct information",
+            "line": 23,
+            "name": "I fill out the additional info \"Huge\"\"calle 2\"\"calle 100\"\"Bogota\"\"3\"\"1100\"\"blank\"\"none\"\"3002114915\"\"13300776732\"\"hugeDir\" with the correct information",
             "match": {
               "arguments": [
                 {
@@ -169,28 +169,28 @@
                   "offset": 66
                 },
                 {
-                  "val": "11000",
+                  "val": "1100",
                   "offset": 69
                 },
                 {
-                  "val": "21",
-                  "offset": 76
+                  "val": "blank",
+                  "offset": 75
                 },
                 {
                   "val": "none",
-                  "offset": 80
+                  "offset": 82
                 },
                 {
                   "val": "3002114915",
-                  "offset": 86
+                  "offset": 88
                 },
                 {
                   "val": "13300776732",
-                  "offset": 98
+                  "offset": 100
                 },
                 {
                   "val": "hugeDir",
-                  "offset": 111
+                  "offset": 113
                 }
               ],
               "location": "RegisterUser.iFillOutTheAdditionalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String,String,String)"
@@ -212,10 +212,9 @@
           },
           {
             "result": {
-              "duration": 1250195541,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 24,
             "name": "I click on the Register button",
             "match": {
               "location": "RegisterUser.iClickOnTheRegisterButton()"
@@ -224,13 +223,33 @@
           },
           {
             "result": {
-              "duration": 12667478,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
-            "name": "I should be registered",
+            "comments": [
+              {
+                "line": 25,
+                "value": "#Then I should not be registered"
+              },
+              {
+                "line": 26,
+                "value": "#And I should see a notification error"
+              }
+            ],
+            "line": 27,
+            "name": "I click on the Register button",
             "match": {
-              "location": "RegisterUser.iShouldBeRegistered()"
+              "location": "RegisterUser.iClickOnTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should see an error notification",
+            "match": {
+              "location": "RegisterUser.iShouldSeeAnErrorNotification()"
             },
             "keyword": "Then "
           }

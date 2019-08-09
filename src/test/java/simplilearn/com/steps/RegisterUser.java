@@ -6,7 +6,6 @@ import simplilearn.com.pages.*;
 import cucumber.api.java.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
 import simplilearn.com.constants.Constants;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 
 import java.util.concurrent.TimeUnit;
@@ -84,36 +83,12 @@ public class RegisterUser extends Constants {
 
     @Then("^I should be registered$")
     public void iShouldBeRegistered() {
-        //Assert.assertTrue(".dwe",
-          //      browser.getPageSource().contains("Welcome to your account. Here you can manage all of your personal information and orders"));
-
         Assert.assertTrue(browser.getPageSource().contains("Welcome to your account. Here you can manage all of your personal information and orders"));
-    }
-
-    @And("^I should see a notification$")
-    public void iShouldSeeANotification() {
-        
-    }
-
-    @And("^I fill out the register form information$")
-    public void iFillOutTheRegisterFormInformation() {
-        
-    }
-
-    @But("^I do not select a \"([^\"]*)\" value$")
-    public void iDoNotSelectAValue(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @And("^I do not enter a valid \"([^\"]*)\" value$")
-    public void iDoNotEnterAValidValue(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
     }
 
     @Then("^I should see an error notification$")
     public void iShouldSeeAnErrorNotification() {
+        Assert.assertTrue(browser.getPageSource().contains("Country is invalid"));
     }
 
 }

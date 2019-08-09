@@ -4,10 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Register {
     private WebDriver driver;
@@ -162,7 +159,13 @@ public class Register {
     public void selectCountry(String _country) {
         Select country;
         country = new Select(idCountry);
-        country.selectByValue(_country);
+        if(_country.equals("blank"))
+        {
+            country.selectByIndex(0);
+        }
+        else {
+            country.selectByValue(_country);
+        }
     }
 
     public void enterAdditionalInfo(String _addtionalInfo) {
@@ -179,7 +182,6 @@ public class Register {
 
     public void enterAliasAddres(String _mobilephone) {
         addressAlias.sendKeys(_mobilephone);
-        //clickToRegister();
     }
 
     public void clickToRegister() {
