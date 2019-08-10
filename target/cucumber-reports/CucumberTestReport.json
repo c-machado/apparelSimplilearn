@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 3103007595,
+              "duration": 3978460747,
               "status": "passed"
             },
             "line": 4,
-            "name": "The login form is displayed in the Apparel Homepage",
+            "name": "I am at the home page",
             "match": {
-              "location": "LoginUser.theLoginFormIsDisplayedInTheApparelHomepage()"
+              "location": "searchProducts.iAmAtPage()"
             },
             "keyword": "Given "
           }
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 1668793837,
+              "duration": 1556482764,
               "status": "passed"
             },
             "match": {
@@ -36,7 +36,16 @@
           },
           {
             "result": {
-              "duration": 1167030703,
+              "duration": 1156210715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1246124634,
               "status": "passed"
             },
             "match": {
@@ -44,70 +53,75 @@
             }
           }
         ],
-        "line": 28,
-        "name": "Successful log off",
+        "line": 13,
+        "name": "Performing a successful search",
         "description": "",
-        "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;;2",
+        "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2185900169,
+              "duration": 125747589,
               "status": "passed"
             },
-            "line": 23,
-            "name": "I\u0027m logged in the Apparel website with valid \"dcmu3@gmail.com\" and \"123456\" information",
+            "line": 7,
+            "name": "I type \"Dress\" in the search field",
             "match": {
               "arguments": [
                 {
-                  "val": "dcmu3@gmail.com",
-                  "offset": 46
-                },
-                {
-                  "val": "123456",
-                  "offset": 68
+                  "val": "Dress",
+                  "offset": 8
                 }
               ],
-              "location": "LoginUser.iMLoggedInTheApparelWebsiteWithValidAndInformation(String,String)"
+              "location": "searchProducts.iTypeInTheSearchField(String)"
             },
             "matchedColumns": [
-              0,
-              1
+              0
             ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1473613499,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I click on the log off button",
-            "match": {
-              "location": "LoginUser.iClickOnTheLogOffButton()"
-            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 21800403,
+              "duration": 1587550095,
               "status": "passed"
             },
-            "line": 25,
-            "name": "I should see a login available",
+            "line": 8,
+            "name": "I click on the search button",
             "match": {
-              "location": "LoginUser.iShouldSeeALoginAvailable()"
+              "location": "searchProducts.iClickOnTheSearchButton()"
             },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142232262,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:52)\n\tat ✽.Then I should see results for \"Dress\"(src/test/java/resources/search.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I should see results for \"Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dress",
+                  "offset": 26
+                }
+              ],
+              "location": "searchProducts.iShouldSeeResultsFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "As a registered user I want to be able to login in the Apparel page, so I can have a custom experience",
+    "name": "As a user I want to search for a product so I can easily find it in the page",
     "description": "",
-    "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience",
+    "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page",
     "keyword": "Feature",
-    "uri": "src/test/java/resources/login.feature"
+    "uri": "src/test/java/resources/search.feature"
   }
 ]

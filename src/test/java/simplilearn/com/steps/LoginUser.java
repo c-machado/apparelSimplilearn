@@ -83,6 +83,7 @@ public class LoginUser {
         login.enterPassword(_password);
         login.clickToLogin();
     }
+
 //    @After
 //    public void close(){
 //        browser.close();

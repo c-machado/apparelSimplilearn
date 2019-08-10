@@ -1,127 +1,73 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/resources/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/resources/search.feature");
 formatter.feature({
   "line": 1,
-  "name": "As a registered user I want to be able to login in the Apparel page, so I can have a custom experience",
+  "name": "As a user I want to search for a product so I can easily find it in the page",
   "description": "",
-  "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience",
+  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 6,
-      "value": "#    Scenario Outline:  Successful login"
-    },
-    {
-      "line": 7,
-      "value": "#      When I fill out the login form with \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" information"
-    },
-    {
-      "line": 8,
-      "value": "#      And I click on the Sign in button in the login form"
-    },
-    {
-      "line": 9,
-      "value": "#      Then I should see the logo off menu at the top\u0027s page"
-    },
-    {
-      "line": 10,
-      "value": "#      Examples:"
-    },
-    {
-      "line": 11,
-      "value": "#        | username            | password |"
-    },
-    {
-      "line": 12,
-      "value": "#        | dcmu3@gmail.com | 123456 |"
-    },
-    {
-      "line": 13,
-      "value": "#"
-    },
-    {
-      "line": 14,
-      "value": "#    Scenario Outline: Unsuccessful login"
-    },
-    {
-      "line": 15,
-      "value": "#      When I fill out the login form with not valid \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" information"
-    },
-    {
-      "line": 16,
-      "value": "#      And I click on the Sign in button in the login form"
-    },
-    {
-      "line": 17,
-      "value": "#      Then I should see a message error"
-    },
-    {
-      "line": 18,
-      "value": "#      Examples:"
-    },
-    {
-      "line": 19,
-      "value": "#        | username    | password |"
-    },
-    {
-      "line": 20,
-      "value": "#        | dcmu3@gmail | 123456 |"
-    }
-  ],
-  "line": 22,
-  "name": "Successful log off",
+  "line": 6,
+  "name": "Performing a successful search",
   "description": "",
-  "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off",
+  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 23,
-  "name": "I\u0027m logged in the Apparel website with valid \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" information",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I click on the log off button",
+  "line": 7,
+  "name": "I type \"\u003ccategory\u003e\" in the search field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
-  "name": "I should see a login available",
+  "line": 8,
+  "name": "I click on the search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I should see results for \"\u003ccategory\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 26,
+  "comments": [
+    {
+      "line": 10,
+      "value": "#    And I should see the expected number of results"
+    }
+  ],
+  "line": 11,
   "name": "",
   "description": "",
-  "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;",
+  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;",
   "rows": [
     {
       "cells": [
-        "username",
-        "password"
+        "category"
       ],
-      "line": 27,
-      "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;;1"
+      "line": 12,
+      "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;1"
     },
     {
       "cells": [
-        "dcmu3@gmail.com",
-        "123456"
+        "Dress"
       ],
-      "line": 28,
-      "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;;2"
+      "line": 13,
+      "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1668793837,
+  "duration": 1556482764,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1167030703,
+  "duration": 1156210715,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1246124634,
   "status": "passed"
 });
 formatter.background({
@@ -133,72 +79,77 @@ formatter.background({
 });
 formatter.step({
   "line": 4,
-  "name": "The login form is displayed in the Apparel Homepage",
+  "name": "I am at the home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginUser.theLoginFormIsDisplayedInTheApparelHomepage()"
+  "location": "searchProducts.iAmAtPage()"
 });
 formatter.result({
-  "duration": 3103007595,
+  "duration": 3978460747,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
-  "name": "Successful log off",
+  "line": 13,
+  "name": "Performing a successful search",
   "description": "",
-  "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;;2",
+  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 23,
-  "name": "I\u0027m logged in the Apparel website with valid \"dcmu3@gmail.com\" and \"123456\" information",
+  "line": 7,
+  "name": "I type \"Dress\" in the search field",
   "matchedColumns": [
-    0,
-    1
+    0
   ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 24,
-  "name": "I click on the log off button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
-  "name": "I should see a login available",
+  "line": 8,
+  "name": "I click on the search button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I should see results for \"Dress\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "dcmu3@gmail.com",
-      "offset": 46
-    },
-    {
-      "val": "123456",
-      "offset": 68
+      "val": "Dress",
+      "offset": 8
     }
   ],
-  "location": "LoginUser.iMLoggedInTheApparelWebsiteWithValidAndInformation(String,String)"
+  "location": "searchProducts.iTypeInTheSearchField(String)"
 });
 formatter.result({
-  "duration": 2185900169,
+  "duration": 125747589,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginUser.iClickOnTheLogOffButton()"
+  "location": "searchProducts.iClickOnTheSearchButton()"
 });
 formatter.result({
-  "duration": 1473613499,
+  "duration": 1587550095,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginUser.iShouldSeeALoginAvailable()"
+  "arguments": [
+    {
+      "val": "Dress",
+      "offset": 26
+    }
+  ],
+  "location": "searchProducts.iShouldSeeResultsFor(String)"
 });
 formatter.result({
-  "duration": 21800403,
-  "status": "passed"
+  "duration": 142232262,
+  "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:52)\n\tat ✽.Then I should see results for \"Dress\"(src/test/java/resources/search.feature:9)\n",
+  "status": "failed"
 });
 });
