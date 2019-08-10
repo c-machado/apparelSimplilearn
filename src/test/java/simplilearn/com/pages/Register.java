@@ -9,73 +9,73 @@ import org.openqa.selenium.support.ui.Select;
 public class Register {
     private WebDriver driver;
 
-    @FindBy(css = ".account_creation #id_gender1")
+    @FindBy(id = "id_gender1")
     public WebElement maleGender;
 
-    @FindBy(css = ".account_creation #id_gender2")
+    @FindBy(id = "id_gender2")
     public WebElement femaleGender;
 
-    @FindBy(css = ".account_creation #customer_firstname")
+    @FindBy(id = "customer_firstname")
     public WebElement firstName;
 
-    @FindBy(css = ".account_creation #customer_lastname")
+    @FindBy(id = "customer_lastname")
     public WebElement lastName;
 
-    @FindBy(css = ".account_creation #email")
+    @FindBy(id = "email")
     public WebElement email;
 
-    @FindBy(css = ".account_creation #passwd")
+    @FindBy(id = "passwd")
     public WebElement password;
 
-    @FindBy(css = ".account_creation #days")
+    @FindBy(id = "days")
     public WebElement daysOfBirthday;
 
-    @FindBy(css = ".account_creation #months")
+    @FindBy(id = "months")
     public WebElement monthOfBirthday;
 
-    @FindBy(css = ".account_creation #years")
+    @FindBy(id = "years")
     public WebElement yearOfBirthday;
 
-    @FindBy(css = ".account_creation #newsletter")
+    @FindBy(id = "newsletter")
     public WebElement newsletterCheckbox;
 
-    @FindBy(css = ".account_creation #optin")
+    @FindBy(id = "optin")
     public WebElement specialOffersCheckbox;
 
-    @FindBy(css = ".account_creation #company")
+    @FindBy(id = "company")
     public WebElement company;
 
-    @FindBy(css = ".account_creation #address1")
+    @FindBy(id = "address1")
     public WebElement mainAddress;
 
-    @FindBy(css = ".account_creation #address2")
+    @FindBy(id = "address2")
     public WebElement additionalAddress;
 
-    @FindBy(css = ".account_creation #city")
+    @FindBy(id = "city")
     public WebElement city;
 
-    @FindBy(css = ".account_creation #id_state")
+    @FindBy(id = "id_state")
     public WebElement idState;
 
-    @FindBy(css = ".account_creation #postcode")
+    @FindBy(id = "postcode")
     public WebElement postcode;
 
-    @FindBy(css = ".account_creation #id_country")
+    @FindBy(id = "id_country")
     public WebElement idCountry;
 
-    @FindBy(css = ".account_creation #other")
+    @FindBy(id = "other")
     public WebElement additionalInfox;
 
-    @FindBy(css = ".account_creation #phone")
+    @FindBy(id = "phone")
     public WebElement phone;
 
-    @FindBy(css = ".account_creation #phone_mobile")
+    @FindBy(id = "phone_mobile")
     public WebElement phone_mobile;
 
-    @FindBy(css = ".account_creation #alias")
+    @FindBy(id = "alias")
     public WebElement addressAlias;
 
-    @FindBy(css = ".submit #submitAccount")
+    @FindBy(id = "submitAccount")
     public WebElement submitRegisterCta;
 
     @FindBy(css = ".inline-infos")

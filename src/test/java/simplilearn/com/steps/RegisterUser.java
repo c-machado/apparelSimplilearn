@@ -60,7 +60,6 @@ public class RegisterUser extends Constants {
         registerPage.checkSpecialOffers(_offers);
     }
 
-
     @And("^I fill out the additional info \"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\"\"([^\"]*)\" with the correct information$")
     public void iFillOutTheAdditionalInfoWithTheCorrectInformation(String _company, String _mainAddress, String _secondAddress, String _city, String _state, String _zip, String _country, String _adInfox, String _homePhone, String _mobilePhone,String _aliasAddress) throws Throwable {
         registerPage.enterCompany(_company);

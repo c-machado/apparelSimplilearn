@@ -9,11 +9,15 @@ public class AuthenticationController {
 
     private WebDriver driver;
 
-    @FindBy(css = ".form-group #email_create")
+    @FindBy(id = "email_create")
     public WebElement emailToShowRegister;
 
-    @FindBy(css = ".submit #SubmitCreate")
+    @FindBy(css = ".SubmitCreate")
     public WebElement registerUserCta;
+
+    @FindBy(css = ".logout")
+    public WebElement logoutCta;
+
 
     public AuthenticationController(WebDriver _driver) {
         this.driver = _driver;
@@ -26,5 +30,9 @@ public class AuthenticationController {
 
     public void clickCreateAccountButton() {
         registerUserCta.click();
+    }
+
+    public void clickToLogout() {
+        logoutCta.click();
     }
 }
