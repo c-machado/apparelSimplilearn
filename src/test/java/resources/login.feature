@@ -1,3 +1,4 @@
+@Ignore
 Feature: As a registered user I want to be able to login in the Apparel page, so I can have a custom experience
 
   Background:

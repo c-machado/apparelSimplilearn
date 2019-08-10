@@ -1,5 +1,6 @@
 package simplilearn.com.steps;
 
+import cucumber.api.java.After;
 import org.testng.Assert;
 import simplilearn.com.pages.*;
 
@@ -89,5 +90,8 @@ public class RegisterUser extends Constants {
     public void iShouldSeeAnErrorNotification() {
         Assert.assertTrue(browser.getPageSource().contains("Country is invalid"));
     }
-
+//    @After
+//    public void close(){
+//        browser.close();
+//    }
 }

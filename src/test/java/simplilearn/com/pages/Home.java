@@ -9,7 +9,7 @@ public class Home {
 
     private WebDriver driver;
 
-    @FindBy(id = "#search_query_top")
+    @FindBy(id = "search_query_top")
     public WebElement searchTextField;
 
     @FindBy(css = "#searchbox button[type='submit']")
@@ -25,6 +25,14 @@ public class Home {
 
     public void clickLoginButton() {
         signInCta.click();
+    }
+
+    public void enterSearchFilter(String _filter){
+        searchTextField.sendKeys(_filter);
+    }
+
+    public void clickSearchButton() {
+        searchButton.click();
     }
 
 
