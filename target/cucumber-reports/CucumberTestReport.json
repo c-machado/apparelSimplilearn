@@ -3,40 +3,10 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2969208324,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am at the home page",
-            "match": {
-              "location": "searchProducts.iAmAtPage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
         "before": [
           {
             "result": {
-              "duration": 1670457828,
-              "status": "passed"
-            },
-            "match": {
-              "location": "RegisterUser.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1184171694,
+              "duration": 1530705644,
               "status": "passed"
             },
             "match": {
@@ -45,7 +15,25 @@
           },
           {
             "result": {
-              "duration": 1192824198,
+              "duration": 1102952839,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1117258231,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1129196977,
               "status": "passed"
             },
             "match": {
@@ -53,87 +41,73 @@
             }
           }
         ],
-        "line": 13,
-        "name": "Performing a successful search",
+        "line": 3,
+        "name": "Choosing a specific manufacturer",
         "description": "",
-        "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2",
+        "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them;choosing-a-specific-manufacturer",
+        "after": [
+          {
+            "result": {
+              "duration": 136562161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.close()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 110457006,
+              "duration": 2425156275,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I type \"Dress\" in the search field",
+            "line": 4,
+            "name": "I am at the search results page",
+            "match": {
+              "location": "Manufacturer.iAmAtTheSearchResultsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1778290032,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I choose the \"http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer\" needed",
             "match": {
               "arguments": [
                 {
-                  "val": "Dress",
-                  "offset": 8
+                  "val": "http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer",
+                  "offset": 14
                 }
               ],
-              "location": "searchProducts.iTypeInTheSearchField(String)"
+              "location": "Manufacturer.iChooseTheNeeded(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1256711947,
+              "duration": 23173805,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click on the search button",
+            "line": 6,
+            "name": "I should see the heading of manufacturer\u0027s product list",
             "match": {
-              "location": "searchProducts.iClickOnTheSearchButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 44623218,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I should see the expected number of results",
-            "match": {
-              "location": "searchProducts.iShouldSeeTheExpectedNumberOfResults()"
+              "location": "Manufacturer.iShouldSeeTheHeadingOfManufacturerSProductList()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 141899626,
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:49)\n\tat ✽.And I should see results for \"Dress\"(src/test/java/resources/search.feature:10)\n",
-              "status": "failed"
-            },
-            "line": 10,
-            "name": "I should see results for \"Dress\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Dress",
-                  "offset": 26
-                }
-              ],
-              "location": "searchProducts.iShouldSeeResultsFor(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "As a user I want to search for a product so I can easily find it in the page",
+    "name": "As a user I want to see the product\u0027s manufacturer listed in the page so I can easily browse among them",
     "description": "",
-    "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page",
+    "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them",
     "keyword": "Feature",
-    "uri": "src/test/java/resources/search.feature"
+    "uri": "src/test/java/resources/manufacturerList.feature"
   }
 ]
