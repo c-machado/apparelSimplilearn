@@ -1,5 +1,6 @@
 package simplilearn.com.steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
@@ -65,5 +66,11 @@ public class searchProducts {
     @After
     public void close(){
         browser.close();
+    }
+
+    @When("^I type \"([^\"]*)\" in the search field in the search results page$")
+    public void iTypeInTheSearchFieldInTheSearchResultsPage(String _category) {
+        search = new SearchController(browser);
+        search.getResultsFiltered(_category);
     }
 }
