@@ -1,5 +1,6 @@
 package simplilearn.com.steps;
 
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -55,8 +56,14 @@ public class searchProducts {
         boolean numberResultProducts = search.getNumberOfResults();
         Assert.assertTrue(numberResultProducts);
     }
-//    @After
-//    public void close(){
-//        browser.close();
-//    }
+
+    @Then("^I should see zero results$")
+    public void iShouldSeeZeroResults() {
+        search = new SearchController(browser);
+        Assert.assertTrue(search.alertNoResults.isDisplayed());
+    }
+    @After
+    public void close(){
+        browser.close();
+    }
 }

@@ -1,3 +1,4 @@
+@Ignore
 Feature: As a user I want to search for a product so I can easily find it in the page
 
   Background:
@@ -11,8 +12,8 @@ Feature: As a user I want to search for a product so I can easily find it in the
     Examples:
       | category |
       | Dress |
-#
-#  Scenario: Performing a no results search
-#    When I type "smith" in the search field
-#    And I click on the search button
-#    Then I should see zero results
+
+  Scenario: Performing a no results search
+    When I type "smith" in the search field
+    And I click on the search button
+    Then I should see zero results

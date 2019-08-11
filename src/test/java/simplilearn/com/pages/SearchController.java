@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -19,7 +20,20 @@ public class SearchController {
     @FindBy(css = ".heading-counter")
     public WebElement messageNumberOfResults;
 
+    @FindBy(css = "p.alert-warning")
+    public WebElement alertNoResults;
 
+    @FindBy(css = "select[name='manufacturer_list']")
+    public WebElement manufaturerOption;
+
+    @FindBy(css = "h1.page-heading")
+    public WebElement manufacturerHeading;
+
+    public void selectManufacturer(String _manufacturerFilter){
+        Select manufacturer;
+        manufacturer = new Select(manufaturerOption);
+        manufacturer.selectByValue(_manufacturerFilter);
+    }
 
     public SearchController(WebDriver _driver) {
         this.driver = driver;

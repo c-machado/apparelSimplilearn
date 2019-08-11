@@ -1,166 +1,79 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/resources/search.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/resources/manufacturerList.feature");
 formatter.feature({
   "line": 1,
-  "name": "As a user I want to search for a product so I can easily find it in the page",
+  "name": "As a user I want to see the product\u0027s manufacturer listed in the page so I can easily browse among them",
   "description": "",
-  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page",
+  "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 6,
-  "name": "Performing a successful search",
-  "description": "",
-  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "I type \"\u003ccategory\u003e\" in the search field",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "I click on the search button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "I should see the expected number of results",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "I should see results for \"\u003ccategory\u003e\"",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 11,
-  "name": "",
-  "description": "",
-  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;",
-  "rows": [
-    {
-      "cells": [
-        "category"
-      ],
-      "line": 12,
-      "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;1"
-    },
-    {
-      "cells": [
-        "Dress"
-      ],
-      "line": 13,
-      "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
 formatter.before({
-  "duration": 1670457828,
+  "duration": 1530705644,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1184171694,
+  "duration": 1102952839,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1192824198,
+  "duration": 1117258231,
   "status": "passed"
 });
-formatter.background({
-  "line": 3,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 4,
-  "name": "I am at the home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "searchProducts.iAmAtPage()"
-});
-formatter.result({
-  "duration": 2969208324,
+formatter.before({
+  "duration": 1129196977,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Performing a successful search",
+  "line": 3,
+  "name": "Choosing a specific manufacturer",
   "description": "",
-  "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2",
+  "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them;choosing-a-specific-manufacturer",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 7,
-  "name": "I type \"Dress\" in the search field",
-  "matchedColumns": [
-    0
-  ],
+  "line": 4,
+  "name": "I am at the search results page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I choose the \"http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer\" needed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "I click on the search button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "I should see the expected number of results",
+  "line": 6,
+  "name": "I should see the heading of manufacturer\u0027s product list",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 10,
-  "name": "I should see results for \"Dress\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
 formatter.match({
-  "arguments": [
-    {
-      "val": "Dress",
-      "offset": 8
-    }
-  ],
-  "location": "searchProducts.iTypeInTheSearchField(String)"
+  "location": "Manufacturer.iAmAtTheSearchResultsPage()"
 });
 formatter.result({
-  "duration": 110457006,
-  "status": "passed"
-});
-formatter.match({
-  "location": "searchProducts.iClickOnTheSearchButton()"
-});
-formatter.result({
-  "duration": 1256711947,
-  "status": "passed"
-});
-formatter.match({
-  "location": "searchProducts.iShouldSeeTheExpectedNumberOfResults()"
-});
-formatter.result({
-  "duration": 44623218,
+  "duration": 2425156275,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Dress",
-      "offset": 26
+      "val": "http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer",
+      "offset": 14
     }
   ],
-  "location": "searchProducts.iShouldSeeResultsFor(String)"
+  "location": "Manufacturer.iChooseTheNeeded(String)"
 });
 formatter.result({
-  "duration": 141899626,
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:49)\n\tat ✽.And I should see results for \"Dress\"(src/test/java/resources/search.feature:10)\n",
-  "status": "failed"
+  "duration": 1778290032,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Manufacturer.iShouldSeeTheHeadingOfManufacturerSProductList()"
+});
+formatter.result({
+  "duration": 23173805,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 136562161,
+  "status": "passed"
 });
 });
