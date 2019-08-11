@@ -1,4 +1,3 @@
-@Ignore
 #Feature: As a user I want to write a review for the product selected in the page so I can rate the product
 #
 #  Background:

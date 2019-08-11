@@ -1,4 +1,3 @@
-@Ignore
 #Feature: As a user I want to share a product in Pinterest page so I can easily find it later
 #
 #  Background:

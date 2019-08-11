@@ -90,8 +90,5 @@ public class RegisterUser extends Constants {
     public void iShouldSeeAnErrorNotification() {
         Assert.assertTrue(browser.getPageSource().contains("Country is invalid"));
     }
-//    @After
-//    public void close(){
-//        browser.close();
-//    }
+
 }

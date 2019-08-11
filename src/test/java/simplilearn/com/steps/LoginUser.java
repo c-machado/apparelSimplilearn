@@ -84,8 +84,5 @@ public class LoginUser {
         login.clickToLogin();
     }
 
-//    @After
-//    public void close(){
-//        browser.close();
-//    }
+
 }

@@ -11,7 +11,510 @@
         "steps": [
           {
             "result": {
-              "duration": 2957112468,
+              "duration": 2826246854,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The login form is displayed in the Apparel Homepage",
+            "match": {
+              "location": "LoginUser.theLoginFormIsDisplayedInTheApparelHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1876060504,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1385593721,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1440155177,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1349547332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1341286076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Successful login",
+        "description": "",
+        "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 280319044,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill out the login form with \"dcmu3@gmail.com\" and \"123456\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu3@gmail.com",
+                  "offset": 32
+                },
+                {
+                  "val": "123456",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginUser.iFillOutTheLoginFormWithAndInformation(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1080776559,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Sign in button in the login form",
+            "match": {
+              "location": "LoginUser.iClickOnTheSignInButtonInTheLoginForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26546657,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the logo off menu at the top\u0027s page",
+            "match": {
+              "location": "LoginUser.iShouldSeeTheLogoOffMenuAtTheTopSPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2299028272,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The login form is displayed in the Apparel Homepage",
+            "match": {
+              "location": "LoginUser.theLoginFormIsDisplayedInTheApparelHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1396615979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1390861787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1443847254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1432197641,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1414518041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Unsuccessful login",
+        "description": "",
+        "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;unsuccessful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 339694038,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I fill out the login form with not valid \"dcmu3@gmail\" and \"123456\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu3@gmail",
+                  "offset": 42
+                },
+                {
+                  "val": "123456",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginUser.iFillOutTheLoginFormWithNotValidAndInformation(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 663592662,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Sign in button in the login form",
+            "match": {
+              "location": "LoginUser.iClickOnTheSignInButtonInTheLoginForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19350027,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see a message error",
+            "match": {
+              "location": "LoginUser.iShouldSeeAMessageError()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2561450124,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The login form is displayed in the Apparel Homepage",
+            "match": {
+              "location": "LoginUser.theLoginFormIsDisplayedInTheApparelHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1435516046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1456982744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1480014682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1475946262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1416891581,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Successful log off",
+        "description": "",
+        "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience;successful-log-off;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2049883386,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I\u0027m logged in the Apparel website with valid \"dcmu3@gmail.com\" and \"123456\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu3@gmail.com",
+                  "offset": 46
+                },
+                {
+                  "val": "123456",
+                  "offset": 68
+                }
+              ],
+              "location": "LoginUser.iMLoggedInTheApparelWebsiteWithValidAndInformation(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1407143713,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the log off button",
+            "match": {
+              "location": "LoginUser.iClickOnTheLogOffButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27833255,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see a login available",
+            "match": {
+              "location": "LoginUser.iShouldSeeALoginAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a registered user I want to be able to login in the Apparel page, so I can have a custom experience",
+    "description": "",
+    "id": "as-a-registered-user-i-want-to-be-able-to-login-in-the-apparel-page,-so-i-can-have-a-custom-experience",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1471569889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1485385391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1488260210,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1522769789,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1451337746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Choosing a specific manufacturer",
+        "description": "",
+        "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them;choosing-a-specific-manufacturer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2478859336,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the search results page",
+            "match": {
+              "location": "Manufacturer.iAmAtTheSearchResultsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1476913744,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I choose the \"http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer\" needed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer",
+                  "offset": 14
+                }
+              ],
+              "location": "Manufacturer.iChooseTheNeeded(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26737954,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the heading of manufacturer\u0027s product list",
+            "match": {
+              "location": "Manufacturer.iShouldSeeTheHeadingOfManufacturerSProductList()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to see the product\u0027s manufacturer listed in the page so I can easily browse among them",
+    "description": "",
+    "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them",
+    "keyword": "Feature",
+    "uri": "manufacturerList.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3113609815,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +526,7 @@
           },
           {
             "result": {
-              "duration": 1974252848,
+              "duration": 2160425512,
               "status": "passed"
             },
             "line": 5,
@@ -49,34 +552,7 @@
         "before": [
           {
             "result": {
-              "duration": 1880241174,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginUser.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1357043370,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Manufacturer.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1404083620,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Purchase.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1396843155,
+              "duration": 1489121066,
               "status": "passed"
             },
             "match": {
@@ -85,7 +561,34 @@
           },
           {
             "result": {
-              "duration": 1296529111,
+              "duration": 1649828383,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1521810612,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1505233084,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1504400591,
               "status": "passed"
             },
             "match": {
@@ -93,27 +596,16 @@
             }
           }
         ],
-        "line": 20,
+        "line": 19,
         "name": "Adding products to the cart",
         "description": "",
         "id": "as-a-logged-user-i-want-to-be-able-to-do-a-checkout-so-i-can-purchase-items;adding-products-to-the-cart;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 157102427,
-              "status": "passed"
-            },
-            "match": {
-              "location": "searchProducts.close()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1747604511,
+              "duration": 1912853636,
               "status": "passed"
             },
             "line": 8,
@@ -134,7 +626,7 @@
           },
           {
             "result": {
-              "duration": 164163952,
+              "duration": 170100265,
               "status": "passed"
             },
             "line": 9,
@@ -146,7 +638,7 @@
           },
           {
             "result": {
-              "duration": 1351516123,
+              "duration": 1436513666,
               "status": "passed"
             },
             "line": 10,
@@ -158,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 806530085,
+              "duration": 875415967,
               "status": "passed"
             },
             "line": 11,
@@ -170,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 749987189,
+              "duration": 784594037,
               "status": "passed"
             },
             "line": 12,
@@ -182,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 877795009,
+              "duration": 993929930,
               "status": "passed"
             },
             "line": 13,
@@ -194,7 +686,7 @@
           },
           {
             "result": {
-              "duration": 659279171,
+              "duration": 667343035,
               "status": "passed"
             },
             "line": 14,
@@ -206,7 +698,7 @@
           },
           {
             "result": {
-              "duration": 1035435919,
+              "duration": 1347241503,
               "status": "passed"
             },
             "line": 15,
@@ -223,6 +715,843 @@
     "description": "",
     "id": "as-a-logged-user-i-want-to-be-able-to-do-a-checkout-so-i-can-purchase-items",
     "keyword": "Feature",
-    "uri": "src/test/java/resources/purchase.feature"
+    "uri": "purchase.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1491938958,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1491540301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1485593767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1361324835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1379961819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Successful register",
+        "description": "",
+        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;successful-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2907520130,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at home page",
+            "match": {
+              "location": "RegisterUser.iAmAtHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041229490,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click to sign in",
+            "match": {
+              "location": "RegisterUser.iClickToSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190852121,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I fill out a valid \"dcmu5@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu5@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterUser.iFillOutAValid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89193406,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click to create account",
+            "match": {
+              "location": "RegisterUser.iClickToCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2132993745,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill out the personal info \"Mr\"\"Carolina\"\"Machado\"\"123456\"\"8\"\"9\"\"1990\"\"y\"\"y\"with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 30
+                },
+                {
+                  "val": "Carolina",
+                  "offset": 34
+                },
+                {
+                  "val": "Machado",
+                  "offset": 44
+                },
+                {
+                  "val": "123456",
+                  "offset": 53
+                },
+                {
+                  "val": "8",
+                  "offset": 61
+                },
+                {
+                  "val": "9",
+                  "offset": 64
+                },
+                {
+                  "val": "1990",
+                  "offset": 67
+                },
+                {
+                  "val": "y",
+                  "offset": 73
+                },
+                {
+                  "val": "y",
+                  "offset": 76
+                }
+              ],
+              "location": "RegisterUser.iFillOutThePersonalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971015927,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill out the additional info \"Huge\"\"calle 2\"\"calle 100\"\"Bogota\"\"3\"\"11000\"\"21\"\"none\"\"3002114915\"\"13300776732\"\"hugeDir\" with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Huge",
+                  "offset": 32
+                },
+                {
+                  "val": "calle 2",
+                  "offset": 38
+                },
+                {
+                  "val": "calle 100",
+                  "offset": 47
+                },
+                {
+                  "val": "Bogota",
+                  "offset": 58
+                },
+                {
+                  "val": "3",
+                  "offset": 66
+                },
+                {
+                  "val": "11000",
+                  "offset": 69
+                },
+                {
+                  "val": "21",
+                  "offset": 76
+                },
+                {
+                  "val": "none",
+                  "offset": 80
+                },
+                {
+                  "val": "3002114915",
+                  "offset": 86
+                },
+                {
+                  "val": "13300776732",
+                  "offset": 98
+                },
+                {
+                  "val": "hugeDir",
+                  "offset": 111
+                }
+              ],
+              "location": "RegisterUser.iFillOutTheAdditionalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1289213740,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "RegisterUser.iClickOnTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14406322,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be registered",
+            "match": {
+              "location": "RegisterUser.iShouldBeRegistered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1409679303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1421072309,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1449688506,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1425738355,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1465484371,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Unsuccessful register",
+        "description": "",
+        "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data;unsuccessful-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2965981777,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am at home page",
+            "match": {
+              "location": "RegisterUser.iAmAtHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1155204447,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click to sign in",
+            "match": {
+              "location": "RegisterUser.iClickToSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174412166,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I fill out a valid \"dcmu16@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu16@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterUser.iFillOutAValid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79595417,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click to create account",
+            "match": {
+              "location": "RegisterUser.iClickToCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2108358291,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill out the personal info \"Mr\"\"Carolina\"\"Machado\"\"123456\"\"8\"\"9\"\"1990\"\"y\"\"y\"with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mr",
+                  "offset": 30
+                },
+                {
+                  "val": "Carolina",
+                  "offset": 34
+                },
+                {
+                  "val": "Machado",
+                  "offset": 44
+                },
+                {
+                  "val": "123456",
+                  "offset": 53
+                },
+                {
+                  "val": "8",
+                  "offset": 61
+                },
+                {
+                  "val": "9",
+                  "offset": 64
+                },
+                {
+                  "val": "1990",
+                  "offset": 67
+                },
+                {
+                  "val": "y",
+                  "offset": 73
+                },
+                {
+                  "val": "y",
+                  "offset": 76
+                }
+              ],
+              "location": "RegisterUser.iFillOutThePersonalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 985791476,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I fill out the additional info \"Huge\"\"calle 2\"\"calle 100\"\"Bogota\"\"3\"\"1100\"\"blank\"\"none\"\"3002114915\"\"13300776732\"\"hugeDir\" with the correct information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Huge",
+                  "offset": 32
+                },
+                {
+                  "val": "calle 2",
+                  "offset": 38
+                },
+                {
+                  "val": "calle 100",
+                  "offset": 47
+                },
+                {
+                  "val": "Bogota",
+                  "offset": 58
+                },
+                {
+                  "val": "3",
+                  "offset": 66
+                },
+                {
+                  "val": "1100",
+                  "offset": 69
+                },
+                {
+                  "val": "blank",
+                  "offset": 75
+                },
+                {
+                  "val": "none",
+                  "offset": 82
+                },
+                {
+                  "val": "3002114915",
+                  "offset": 88
+                },
+                {
+                  "val": "13300776732",
+                  "offset": 100
+                },
+                {
+                  "val": "hugeDir",
+                  "offset": 113
+                }
+              ],
+              "location": "RegisterUser.iFillOutTheAdditionalInfoWithTheCorrectInformation(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 775511317,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "RegisterUser.iClickOnTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808105928,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the Register button",
+            "match": {
+              "location": "RegisterUser.iClickOnTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16260531,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see an error notification",
+            "match": {
+              "location": "RegisterUser.iShouldSeeAnErrorNotification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to register in the Apparel page so I can manage my billing data",
+    "description": "",
+    "id": "as-a-user-i-want-to-register-in-the-apparel-page-so-i-can-manage-my-billing-data",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2940703552,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the home page",
+            "match": {
+              "location": "searchProducts.iAmAtPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1558859500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1524156598,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1551485724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1597050860,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1686211799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Performing a successful search",
+        "description": "",
+        "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-successful-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121780528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I type \"Dress\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dress",
+                  "offset": 8
+                }
+              ],
+              "location": "searchProducts.iTypeInTheSearchField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1331430453,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the search button",
+            "match": {
+              "location": "searchProducts.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54055743,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the expected number of results",
+            "match": {
+              "location": "searchProducts.iShouldSeeTheExpectedNumberOfResults()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204798841,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:51)\n\tat ✽.And I should see results for \"Dress\"(search.feature:10)\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I should see results for \"Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dress",
+                  "offset": 26
+                }
+              ],
+              "location": "searchProducts.iShouldSeeResultsFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2886530981,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the home page",
+            "match": {
+              "location": "searchProducts.iAmAtPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1715406673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1629493270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginUser.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1653342577,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Manufacturer.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1587064544,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1737438039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterUser.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Performing a no results search",
+        "description": "",
+        "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page;performing-a-no-results-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104892782,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I type \"smith\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smith",
+                  "offset": 8
+                }
+              ],
+              "location": "searchProducts.iTypeInTheSearchField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1010284782,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the search button",
+            "match": {
+              "location": "searchProducts.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23764559,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see zero results",
+            "match": {
+              "location": "searchProducts.iShouldSeeZeroResults()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to search for a product so I can easily find it in the page",
+    "description": "",
+    "id": "as-a-user-i-want-to-search-for-a-product-so-i-can-easily-find-it-in-the-page",
+    "keyword": "Feature",
+    "uri": "search.feature"
   }
 ]

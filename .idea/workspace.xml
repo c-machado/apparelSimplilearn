@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b29dfbe-3886-43df-9094-b879426ac58a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/purchase.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/purchase.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/register.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/review.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/review.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/share.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/share.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/pages/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/steps/RegisterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/steps/RegisterUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/simplilearn/com/utils/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/simplilearn/com/utils/Base.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,20 +30,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/resources/purchase.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resources/register.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-449">
+              <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,50 +89,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Purchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+            <state relative-caret-position="443">
+              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3174#3175#0" expanded="true" />
-                <element signature="e#3204#3205#0" expanded="true" />
-                <element signature="e#3341#3342#0" expanded="true" />
-                <element signature="e#3371#3372#0" expanded="true" />
-                <element signature="e#3392#3393#0" expanded="true" />
-                <element signature="e#3474#3475#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,11 +110,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Home.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="24" />
+            <state relative-caret-position="196">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,29 +186,29 @@
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Register.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/searchProducts.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Home.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/searchController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/constants/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/Manufacturer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerCategory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/purchase.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/resources/register.feature" />
         <option value="$PROJECT_DIR$/src/test/java/resources/review.feature" />
         <option value="$PROJECT_DIR$/src/test/java/resources/search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/resources/share.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerCategory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/ControllerOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Purchase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/purchase.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java" />
       </list>
     </option>
   </component>
@@ -381,32 +409,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565062016675</updated>
-      <workItem from="1565062020751" duration="58054000" />
+      <workItem from="1565062020751" duration="58886000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.08.11 at 04h 46m 04s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 10m 24s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 13m 20s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 15m 45s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 19m 20s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 21m 24s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.11 at 05h 49m 57s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2019.08.11 at 05h 52m 29s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -416,9 +423,30 @@
     <history-entry file="TestRunner - 2019.08.11 at 05h 56m 02s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 05h 57m 34s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 10m 03s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 10m 23s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 10m 39s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 13m 58s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 19m 45s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 06h 25m 19s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58054000" />
+    <option name="totallyTimeSpent" value="58886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1497" height="947" extended-state="0" />
@@ -657,32 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1286" />
@@ -703,16 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -730,99 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="79" column="64" selection-start-line="79" selection-start-column="62" selection-end-line="79" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="1" selection-start-column="1" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/register.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="1" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/share.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/review.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="1" selection-start-column="1" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="1" selection-start-column="1" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -868,33 +771,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="346">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/review.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/share.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/purchase.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/AuthenticationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/register.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Manufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+        <state relative-caret-position="443">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3174#3175#0" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3341#3342#0" expanded="true" />
-            <element signature="e#3371#3372#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
-            <element signature="e#3474#3475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/purchase.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="406">
+          <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

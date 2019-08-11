@@ -40,8 +40,5 @@ public class Manufacturer {
     public void iShouldSeeTheHeadingOfManufacturerSProductList() {
         Assert.assertTrue(search.manufacturerHeading.isDisplayed());
     }
-//    @After
-//    public void close(){
-//        browser.close();
-//    }
+
 }
