@@ -12,7 +12,7 @@ public class AuthenticationController {
     @FindBy(id = "email_create")
     public WebElement emailToShowRegister;
 
-    @FindBy(css = ".SubmitCreate")
+    @FindBy(id = "SubmitCreate")
     public WebElement registerUserCta;
 
     @FindBy(css = ".logout")
