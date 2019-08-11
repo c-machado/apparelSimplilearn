@@ -26,16 +26,15 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I should see results for \"\u003ccategory\u003e\"",
+  "name": "I should see the expected number of results",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 10,
+  "name": "I should see results for \"\u003ccategory\u003e\"",
+  "keyword": "And "
+});
 formatter.examples({
-  "comments": [
-    {
-      "line": 10,
-      "value": "#    And I should see the expected number of results"
-    }
-  ],
   "line": 11,
   "name": "",
   "description": "",
@@ -59,15 +58,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1556482764,
+  "duration": 1670457828,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1156210715,
+  "duration": 1184171694,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1246124634,
+  "duration": 1192824198,
   "status": "passed"
 });
 formatter.background({
@@ -86,7 +85,7 @@ formatter.match({
   "location": "searchProducts.iAmAtPage()"
 });
 formatter.result({
-  "duration": 3978460747,
+  "duration": 2969208324,
   "status": "passed"
 });
 formatter.scenario({
@@ -112,11 +111,16 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
+  "name": "I should see the expected number of results",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
   "name": "I should see results for \"Dress\"",
   "matchedColumns": [
     0
   ],
-  "keyword": "Then "
+  "keyword": "And "
 });
 formatter.match({
   "arguments": [
@@ -128,14 +132,21 @@ formatter.match({
   "location": "searchProducts.iTypeInTheSearchField(String)"
 });
 formatter.result({
-  "duration": 125747589,
+  "duration": 110457006,
   "status": "passed"
 });
 formatter.match({
   "location": "searchProducts.iClickOnTheSearchButton()"
 });
 formatter.result({
-  "duration": 1587550095,
+  "duration": 1256711947,
+  "status": "passed"
+});
+formatter.match({
+  "location": "searchProducts.iShouldSeeTheExpectedNumberOfResults()"
+});
+formatter.result({
+  "duration": 44623218,
   "status": "passed"
 });
 formatter.match({
@@ -148,8 +159,8 @@ formatter.match({
   "location": "searchProducts.iShouldSeeResultsFor(String)"
 });
 formatter.result({
-  "duration": 142232262,
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:52)\n\tat ✽.Then I should see results for \"Dress\"(src/test/java/resources/search.feature:9)\n",
+  "duration": 141899626,
+  "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:49)\n\tat ✽.And I should see results for \"Dress\"(src/test/java/resources/search.feature:10)\n",
   "status": "failed"
 });
 });

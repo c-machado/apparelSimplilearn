@@ -6,8 +6,8 @@ Feature: As a user I want to search for a product so I can easily find it in the
   Scenario Outline: Performing a successful search
     When I type "<category>" in the search field
     And I click on the search button
-    Then I should see results for "<category>"
-#    And I should see the expected number of results
+    Then I should see the expected number of results
+    And I should see results for "<category>"
     Examples:
       | category |
       | Dress |

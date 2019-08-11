@@ -16,12 +16,17 @@ public class SearchController {
     @FindBy(css = ".product-container a.product-name")
     public List<WebElement> productList;
 
+    @FindBy(css = ".heading-counter")
+    public WebElement messageNumberOfResults;
+
+
+
     public SearchController(WebDriver _driver) {
         this.driver = driver;
         PageFactory.initElements(_driver, this);
     }
 
-    public boolean printResultList(String _filter) {
+    public boolean validateProductsMatched(String _filter) {
         int flag = 0;
         for (WebElement productName : productList) {
             System.out.println(productName.getText());
@@ -33,5 +38,16 @@ public class SearchController {
             return false;
         else
             return true;
+    }
+
+    public boolean getNumberOfResults(){
+        int numberOfResults = Integer.parseInt(messageNumberOfResults.getText().split(" ")[0]);
+        int numberProductsGrid = productList.size();
+        if(numberOfResults == numberProductsGrid){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }

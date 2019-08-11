@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3978460747,
+              "duration": 2969208324,
               "status": "passed"
             },
             "line": 4,
@@ -27,16 +27,16 @@
         "before": [
           {
             "result": {
-              "duration": 1556482764,
+              "duration": 1670457828,
               "status": "passed"
             },
             "match": {
-              "location": "LoginUser.setUp()"
+              "location": "RegisterUser.setUp()"
             }
           },
           {
             "result": {
-              "duration": 1156210715,
+              "duration": 1184171694,
               "status": "passed"
             },
             "match": {
@@ -45,11 +45,11 @@
           },
           {
             "result": {
-              "duration": 1246124634,
+              "duration": 1192824198,
               "status": "passed"
             },
             "match": {
-              "location": "RegisterUser.setUp()"
+              "location": "LoginUser.setUp()"
             }
           }
         ],
@@ -62,7 +62,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125747589,
+              "duration": 110457006,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 1587550095,
+              "duration": 1256711947,
               "status": "passed"
             },
             "line": 8,
@@ -95,11 +95,23 @@
           },
           {
             "result": {
-              "duration": 142232262,
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:52)\n\tat ✽.Then I should see results for \"Dress\"(src/test/java/resources/search.feature:9)\n",
-              "status": "failed"
+              "duration": 44623218,
+              "status": "passed"
             },
             "line": 9,
+            "name": "I should see the expected number of results",
+            "match": {
+              "location": "searchProducts.iShouldSeeTheExpectedNumberOfResults()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141899626,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat simplilearn.com.steps.searchProducts.iShouldSeeResultsFor(searchProducts.java:49)\n\tat ✽.And I should see results for \"Dress\"(src/test/java/resources/search.feature:10)\n",
+              "status": "failed"
+            },
+            "line": 10,
             "name": "I should see results for \"Dress\"",
             "match": {
               "arguments": [
@@ -113,7 +125,7 @@
             "matchedColumns": [
               0
             ],
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
