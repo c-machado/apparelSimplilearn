@@ -3,19 +3,62 @@
     "line": 1,
     "elements": [
       {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2957112468,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the home page",
+            "match": {
+              "location": "searchProducts.iAmAtPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1974252848,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m logged in the Apparel website with valid \"dcmu3@gmail.com\" and \"123456\" information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dcmu3@gmail.com",
+                  "offset": 46
+                },
+                {
+                  "val": "123456",
+                  "offset": 68
+                }
+              ],
+              "location": "LoginUser.iMLoggedInTheApparelWebsiteWithValidAndInformation(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 1530705644,
+              "duration": 1880241174,
               "status": "passed"
             },
             "match": {
-              "location": "searchProducts.setUp()"
+              "location": "LoginUser.setUp()"
             }
           },
           {
             "result": {
-              "duration": 1102952839,
+              "duration": 1357043370,
               "status": "passed"
             },
             "match": {
@@ -24,31 +67,40 @@
           },
           {
             "result": {
-              "duration": 1117258231,
+              "duration": 1404083620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Purchase.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1396843155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchProducts.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1296529111,
               "status": "passed"
             },
             "match": {
               "location": "RegisterUser.setUp()"
             }
-          },
-          {
-            "result": {
-              "duration": 1129196977,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginUser.setUp()"
-            }
           }
         ],
-        "line": 3,
-        "name": "Choosing a specific manufacturer",
+        "line": 20,
+        "name": "Adding products to the cart",
         "description": "",
-        "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them;choosing-a-specific-manufacturer",
+        "id": "as-a-logged-user-i-want-to-be-able-to-do-a-checkout-so-i-can-purchase-items;adding-products-to-the-cart;;2",
         "after": [
           {
             "result": {
-              "duration": 136562161,
+              "duration": 157102427,
               "status": "passed"
             },
             "match": {
@@ -57,57 +109,120 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2425156275,
+              "duration": 1747604511,
               "status": "passed"
             },
-            "line": 4,
-            "name": "I am at the search results page",
-            "match": {
-              "location": "Manufacturer.iAmAtTheSearchResultsPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1778290032,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I choose the \"http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer\" needed",
+            "line": 8,
+            "name": "I filter by \"Women\"",
             "match": {
               "arguments": [
                 {
-                  "val": "http://automationpractice.com/index.php?id_manufacturer\u003d1\u0026controller\u003dmanufacturer",
-                  "offset": 14
+                  "val": "Women",
+                  "offset": 13
                 }
               ],
-              "location": "Manufacturer.iChooseTheNeeded(String)"
+              "location": "Purchase.iFilterBy(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 23173805,
+              "duration": 164163952,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I should see the heading of manufacturer\u0027s product list",
+            "line": 9,
+            "name": "I add a product to the cart",
             "match": {
-              "location": "Manufacturer.iShouldSeeTheHeadingOfManufacturerSProductList()"
+              "location": "Purchase.iAddAProductToTheCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351516123,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to place the order",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToPlaceTheOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806530085,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to confirm the summary order",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToConfirmTheSummaryOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749987189,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to confirm the address order",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToConfirmTheAddressOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877795009,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to confirm the shipping order",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToConfirmTheShippingOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659279171,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to confirm the payment method",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToConfirmThePaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1035435919,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to confirm the final order",
+            "match": {
+              "location": "Purchase.iShouldBeAbleToConfirmTheFinalOrder()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "As a user I want to see the product\u0027s manufacturer listed in the page so I can easily browse among them",
+    "name": "As a logged user I want to be able to do a checkout so I can purchase items",
     "description": "",
-    "id": "as-a-user-i-want-to-see-the-product\u0027s-manufacturer-listed-in-the-page-so-i-can-easily-browse-among-them",
+    "id": "as-a-logged-user-i-want-to-be-able-to-do-a-checkout-so-i-can-purchase-items",
     "keyword": "Feature",
-    "uri": "src/test/java/resources/manufacturerList.feature"
+    "uri": "src/test/java/resources/purchase.feature"
   }
 ]

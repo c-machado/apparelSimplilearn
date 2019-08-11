@@ -29,6 +29,9 @@ public class SearchController {
     @FindBy(css = "h1.page-heading")
     public WebElement manufacturerHeading;
 
+    @FindBy(id = "search_query_top")
+    public WebElement searchField;
+
     public void selectManufacturer(String _manufacturerFilter){
         Select manufacturer;
         manufacturer = new Select(manufaturerOption);
@@ -63,5 +66,10 @@ public class SearchController {
         else{
             return false;
         }
+    }
+
+    public void getResultsFiltered(String _category){
+        searchField.sendKeys(_category);
+
     }
 }

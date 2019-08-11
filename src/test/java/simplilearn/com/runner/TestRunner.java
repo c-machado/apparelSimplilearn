@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 @CucumberOptions(
-        features = "src/test/java/resources/manufacturerList.feature",
+        features = "src/test/java/resources/purchase.feature",
         glue = {"simplilearn.com.steps"},
         tags = {"~@Ignore"},
         format = {
