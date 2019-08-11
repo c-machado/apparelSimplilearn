@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b29dfbe-3886-43df-9094-b879426ac58a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,17 +26,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,43 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="93" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="175">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,10 +117,10 @@
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/searchController.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/search.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/RegisterUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/search.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java" />
         <option value="$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java" />
       </list>
     </option>
@@ -249,6 +225,24 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apparel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apparel" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apparel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apparel" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apparel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apparel" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-pretty" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -319,44 +313,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565062016675</updated>
-      <workItem from="1565062020751" duration="44108000" />
+      <workItem from="1565062020751" duration="47068000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2019.08.10 at 03h 49m 56s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 03h 50m 36s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 03h 54m 43s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 03h 55m 23s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 03h 56m 17s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 04h 03m 13s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 04h 03m 34s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2019.08.10 at 04h 13m 46s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2019.08.10 at 04h 18m 48s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestRunner - 2019.08.10 at 04h 20m 20s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner - 2019.08.10 at 04h 20m 49s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 31m 16s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 32m 16s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 35m 24s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 38m 13s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 38m 55s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 51m 07s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2019.08.11 at 01h 52m 02s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44108000" />
+    <option name="totallyTimeSpent" value="47068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1497" height="947" extended-state="0" />
@@ -367,7 +361,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32982457" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -377,7 +371,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -652,41 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/register.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/review.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/purchase.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/share.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -695,40 +647,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#606#607#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,10 +671,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/review.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/register.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/purchase.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/manufacturerList.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/share.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/pages/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/simplilearn/com/steps/searchProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="218">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

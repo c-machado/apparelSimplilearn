@@ -42,11 +42,18 @@ public class searchProducts {
     }
 
 
-    @Then("^I should see results for \"([^\"]*)\"$")
+    @And("^I should see results for \"([^\"]*)\"$")
     public void iShouldSeeResultsFor(String _filter) {
        search = new SearchController(browser);
-       boolean product = search.printResultList(_filter);
+       boolean product = search.validateProductsMatched(_filter);
        Assert.assertTrue(product);
+    }
+
+    @Then("^I should see the expected number of results$")
+    public void iShouldSeeTheExpectedNumberOfResults() {
+        search = new SearchController(browser);
+        boolean numberResultProducts = search.getNumberOfResults();
+        Assert.assertTrue(numberResultProducts);
     }
 //    @After
 //    public void close(){
